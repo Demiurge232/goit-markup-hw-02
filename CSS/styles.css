@@ -1,6 +1,5 @@
 :root {
   /*bg colors*/
-  --main-header-cl: #ececec;
   --main-bg-cl: #ffffff;
   --secondary-bg-cl: #2f303a;
   --third-bg-cl: #f5f4fa;
@@ -91,9 +90,6 @@ body {
 }
 
 /* Header */
-.top-page {
-  background-color: var(--main-header-cl);
-}
 
 .logo {
   color: var(--main-text-cl);
@@ -219,10 +215,6 @@ body {
   border-radius: var(--main-bord-rad);
   width: 125px;
   height: 38px;
-}
-
-.portfol-item {
-  background-color: var(--section-ptf-cl);
 }
 
 .portfol-subtitle {
